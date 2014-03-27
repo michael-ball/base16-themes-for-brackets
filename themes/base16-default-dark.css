@@ -1,0 +1,133 @@
+/*
+
+    Name:       Base16 Default Dark
+    Author:     Chris Kempson (http://chriskempson.com)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Brackets additions by Michaël Ball (https://github.com/michael-ball)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-default-dark.CodeMirror {background: #151515; color: #e0e0e0;}
+.cm-s-base16-default-dark div.CodeMirror-selected {background: #202020 !important;}
+.cm-s-base16-default-dark .CodeMirror-gutters {background: #151515; border-right: 0px;}
+.cm-s-base16-default-dark .CodeMirror-linenumber {color: #505050;}
+.cm-s-base16-default-dark .CodeMirror-cursor {border-left: 1px solid #b0b0b0 !important;}
+
+.cm-s-base16-default-dark span.cm-comment {color: #8f5536;}
+.cm-s-base16-default-dark span.cm-atom {color: #aa759f;}
+.cm-s-base16-default-dark span.cm-number {color: #aa759f;}
+
+.cm-s-base16-default-dark span.cm-property, .cm-s-base16-default-dark span.cm-attribute {color: #90a959;}
+.cm-s-base16-default-dark span.cm-keyword {color: #ac4142;}
+.cm-s-base16-default-dark span.cm-string {color: #f4bf75;}
+
+.cm-s-base16-default-dark span.cm-variable {color: #90a959;}
+.cm-s-base16-default-dark span.cm-variable-2 {color: #6a9fb5;}
+.cm-s-base16-default-dark span.cm-def {color: #d28445;}
+.cm-s-base16-default-dark span.cm-error {background: #ac4142; color: #b0b0b0;}
+.cm-s-base16-default-dark span.cm-bracket {color: #e0e0e0;}
+.cm-s-base16-default-dark span.cm-tag {color: #ac4142;}
+.cm-s-base16-default-dark span.cm-link {color: #aa759f;}
+
+.cm-s-base16-default-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+
+#open-files-container a {
+    color: #f5f5f5;
+}
+#open-files-container .extension, #open-files-container .directory {
+    color: #b0b0b0;
+}
+#open-files-container li.selected a, #open-files-container li.selected a .extension {
+    color: #75b5aa;
+} 
+
+#working-set-header,#project-files-header, #open-files-container{ /* Working files */
+    background: rgba(0,0,0,0.12); 
+    color: #e0e0e0;
+}
+#sidebar, #main-toolbar, #status-bar, .inline-widget{
+    background: #151515;
+}
+
+#project-files-header { 
+    border-top: 1px solid #505050;
+}
+
+#project-dropdown-toggle:hover{ /* Open url when hover */
+    color: #f4bf75!important;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+#status-bar{
+    border-top:1px solid #202020;
+    color: #90a959;
+}
+
+.sidebar-selection, .sidebar-selection-triangle{ /* Selected file or folder */
+    background:#202020;
+}
+.sidebar-selection-triangle.triangle-visible::before{
+    border-left:12px solid #202020;
+}
+.jstree-brackets li.git-ignored {
+    color: #b0b0b0;
+}
+.jstree-brackets li.jstree-closed>a, .jstree-brackets li.jstree-open>a,.git-close-not-modified i {
+    color: #6a9fb5;
+}
+.jstree-brackets li a.jstree-clicked, .jstree-brackets li a.jstree-clicked .extension {
+    color: #75b5aa;
+}
+.jstree-brackets li a {
+    color: #f5f5f5;
+}
+.jstree-brackets li .extension {
+    color: #e0e0e0;
+}
+
+.cm-s-base16-default-dark .CodeMirror-matchingbracket { text-decoration: underline; color: #f5f5f5 !important;}
+
+#titlebar,
+#status-bar,
+#status-indicators,
+#editor-holder #not-editor {
+    background-color: #202020;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+#titlebar {
+    height: 14px;
+}
+
+#titlebar .title-wrapper {
+    display: none;
+}
+
+#status-info,
+#status-indicators * {
+    color: #f5f5f5;
+}
+#status-file {
+    color: #e0e0e0;
+}
+
+.toolbar .nav .dropdown-toggle {
+    padding: 2px 5px 1px !important;
+    font-size: 13px;
+    color: #e0e0e0;
+}
+
+.toolbar .nav .dropdown-toggle:hover {
+    color: inherit;
+}
+
+.toolbar .nav .dropdown-menu {
+    top: 23px;
+}
+
+.cm-s-base16-default-dark {
+    font-family: "Envy Code R";
+    font-size: 10pt;
+}

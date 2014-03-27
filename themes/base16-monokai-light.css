@@ -1,0 +1,133 @@
+/*
+
+    Name:       Base16 Monokai Light
+    Author:     Wimer Hazenberg (http://www.monokai.nl)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Brackets additions by Michaël Ball (https://github.com/michael-ball)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-monokai-light.CodeMirror {background: #f9f8f5; color: #383830;}
+.cm-s-base16-monokai-light div.CodeMirror-selected {background: #f5f4f1 !important;}
+.cm-s-base16-monokai-light .CodeMirror-gutters {background: #f9f8f5; border-right: 0px;}
+.cm-s-base16-monokai-light .CodeMirror-linenumber {color: #a59f85;}
+.cm-s-base16-monokai-light .CodeMirror-cursor {border-left: 1px solid #75715e !important;}
+
+.cm-s-base16-monokai-light span.cm-comment {color: #cc6633;}
+.cm-s-base16-monokai-light span.cm-atom {color: #ae81ff;}
+.cm-s-base16-monokai-light span.cm-number {color: #ae81ff;}
+
+.cm-s-base16-monokai-light span.cm-property, .cm-s-base16-monokai-light span.cm-attribute {color: #a6e22e;}
+.cm-s-base16-monokai-light span.cm-keyword {color: #f92672;}
+.cm-s-base16-monokai-light span.cm-string {color: #f4bf75;}
+
+.cm-s-base16-monokai-light span.cm-variable {color: #a6e22e;}
+.cm-s-base16-monokai-light span.cm-variable-2 {color: #66d9ef;}
+.cm-s-base16-monokai-light span.cm-def {color: #fd971f;}
+.cm-s-base16-monokai-light span.cm-error {background: #f92672; color: #75715e;}
+.cm-s-base16-monokai-light span.cm-bracket {color: #383830;}
+.cm-s-base16-monokai-light span.cm-tag {color: #f92672;}
+.cm-s-base16-monokai-light span.cm-link {color: #ae81ff;}
+
+.cm-s-base16-monokai-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+
+#open-files-container a {
+    color: #272822;
+}
+#open-files-container .extension, #open-files-container .directory {
+    color: #75715e;
+}
+#open-files-container li.selected a, #open-files-container li.selected a .extension {
+    color: #a1efe4;
+} 
+
+#working-set-header,#project-files-header, #open-files-container{ /* Working files */
+    background: rgba(0,0,0,0.12); 
+    color: #383830;
+}
+#sidebar, #main-toolbar, #status-bar, .inline-widget{
+    background: #272822;
+}
+
+#project-files-header { 
+    border-top: 1px solid #75715e;
+}
+
+#project-dropdown-toggle:hover{ /* Open url when hover */
+    color: #f4bf75!important;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+#status-bar{
+    border-top:1px solid #383830;
+    color: #a6e22e;
+}
+
+.sidebar-selection, .sidebar-selection-triangle{ /* Selected file or folder */
+    background:#383830;
+}
+.sidebar-selection-triangle.triangle-visible::before{
+    border-left:12px solid #383830;
+}
+.jstree-brackets li.git-ignored {
+    color: #75715e;
+}
+.jstree-brackets li.jstree-closed>a, .jstree-brackets li.jstree-open>a,.git-close-not-modified i {
+    color: #66d9ef;
+}
+.jstree-brackets li a.jstree-clicked, .jstree-brackets li a.jstree-clicked .extension {
+    color: #a1efe4;
+}
+.jstree-brackets li a {
+    color: #272822;
+}
+.jstree-brackets li .extension {
+    color: #383830;
+}
+
+.cm-s-base16-monokai-dark .CodeMirror-matchingbracket { text-decoration: underline; color: #272822 !important;}
+
+#titlebar,
+#status-bar,
+#status-indicators,
+#editor-holder #not-editor {
+    background-color: #383830;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+#titlebar {
+    height: 14px;
+}
+
+#titlebar .title-wrapper {
+    display: none;
+}
+
+#status-info,
+#status-indicators * {
+    color: #272822;
+}
+#status-file {
+    color: #383830;
+}
+
+.toolbar .nav .dropdown-toggle {
+    padding: 2px 5px 1px !important;
+    font-size: 13px;
+    color: #383830;
+}
+
+.toolbar .nav .dropdown-toggle:hover {
+    color: inherit;
+}
+
+.toolbar .nav .dropdown-menu {
+    top: 23px;
+}
+
+.cm-s-base16-monokai-dark {
+    font-family: "Envy Code R";
+    font-size: 10pt;
+}

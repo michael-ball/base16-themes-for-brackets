@@ -1,0 +1,133 @@
+/*
+
+    Name:       Base16 London Tube Light
+    Author:     Jan T. Sott
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Brackets additions by Michaël Ball (https://github.com/michael-ball)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-londontube-light.CodeMirror {background: #ffffff; color: #1c3f95;}
+.cm-s-base16-londontube-light div.CodeMirror-selected {background: #e7e7e8 !important;}
+.cm-s-base16-londontube-light .CodeMirror-gutters {background: #ffffff; border-right: 0px;}
+.cm-s-base16-londontube-light .CodeMirror-linenumber {color: #959ca1;}
+.cm-s-base16-londontube-light .CodeMirror-cursor {border-left: 1px solid #737171 !important;}
+
+.cm-s-base16-londontube-light span.cm-comment {color: #b06110;}
+.cm-s-base16-londontube-light span.cm-atom {color: #98005d;}
+.cm-s-base16-londontube-light span.cm-number {color: #98005d;}
+
+.cm-s-base16-londontube-light span.cm-property, .cm-s-base16-londontube-light span.cm-attribute {color: #00853e;}
+.cm-s-base16-londontube-light span.cm-keyword {color: #ee2e24;}
+.cm-s-base16-londontube-light span.cm-string {color: #ffd204;}
+
+.cm-s-base16-londontube-light span.cm-variable {color: #00853e;}
+.cm-s-base16-londontube-light span.cm-variable-2 {color: #009ddc;}
+.cm-s-base16-londontube-light span.cm-def {color: #f386a1;}
+.cm-s-base16-londontube-light span.cm-error {background: #ee2e24; color: #737171;}
+.cm-s-base16-londontube-light span.cm-bracket {color: #1c3f95;}
+.cm-s-base16-londontube-light span.cm-tag {color: #ee2e24;}
+.cm-s-base16-londontube-light span.cm-link {color: #98005d;}
+
+.cm-s-base16-londontube-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+
+#open-files-container a {
+    color: #231f20;
+}
+#open-files-container .extension, #open-files-container .directory {
+    color: #737171;
+}
+#open-files-container li.selected a, #open-files-container li.selected a .extension {
+    color: #85cebc;
+} 
+
+#working-set-header,#project-files-header, #open-files-container{ /* Working files */
+    background: rgba(0,0,0,0.12); 
+    color: #1c3f95;
+}
+#sidebar, #main-toolbar, #status-bar, .inline-widget{
+    background: #231f20;
+}
+
+#project-files-header { 
+    border-top: 1px solid #737171;
+}
+
+#project-dropdown-toggle:hover{ /* Open url when hover */
+    color: #ffd204!important;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+#status-bar{
+    border-top:1px solid #1c3f95;
+    color: #00853e;
+}
+
+.sidebar-selection, .sidebar-selection-triangle{ /* Selected file or folder */
+    background:#1c3f95;
+}
+.sidebar-selection-triangle.triangle-visible::before{
+    border-left:12px solid #1c3f95;
+}
+.jstree-brackets li.git-ignored {
+    color: #737171;
+}
+.jstree-brackets li.jstree-closed>a, .jstree-brackets li.jstree-open>a,.git-close-not-modified i {
+    color: #009ddc;
+}
+.jstree-brackets li a.jstree-clicked, .jstree-brackets li a.jstree-clicked .extension {
+    color: #85cebc;
+}
+.jstree-brackets li a {
+    color: #231f20;
+}
+.jstree-brackets li .extension {
+    color: #1c3f95;
+}
+
+.cm-s-base16-londontube-dark .CodeMirror-matchingbracket { text-decoration: underline; color: #231f20 !important;}
+
+#titlebar,
+#status-bar,
+#status-indicators,
+#editor-holder #not-editor {
+    background-color: #1c3f95;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+#titlebar {
+    height: 14px;
+}
+
+#titlebar .title-wrapper {
+    display: none;
+}
+
+#status-info,
+#status-indicators * {
+    color: #231f20;
+}
+#status-file {
+    color: #1c3f95;
+}
+
+.toolbar .nav .dropdown-toggle {
+    padding: 2px 5px 1px !important;
+    font-size: 13px;
+    color: #1c3f95;
+}
+
+.toolbar .nav .dropdown-toggle:hover {
+    color: inherit;
+}
+
+.toolbar .nav .dropdown-menu {
+    top: 23px;
+}
+
+.cm-s-base16-londontube-dark {
+    font-family: "Envy Code R";
+    font-size: 10pt;
+}

@@ -1,0 +1,133 @@
+/*
+
+    Name:       Base16 Railscasts Dark
+    Author:     Ryan Bates (http://railscasts.com)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Brackets additions by Michaël Ball (https://github.com/michael-ball)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-railscasts-dark.CodeMirror {background: #2b2b2b; color: #f4f1ed;}
+.cm-s-base16-railscasts-dark div.CodeMirror-selected {background: #272935 !important;}
+.cm-s-base16-railscasts-dark .CodeMirror-gutters {background: #2b2b2b; border-right: 0px;}
+.cm-s-base16-railscasts-dark .CodeMirror-linenumber {color: #5a647e;}
+.cm-s-base16-railscasts-dark .CodeMirror-cursor {border-left: 1px solid #d4cfc9 !important;}
+
+.cm-s-base16-railscasts-dark span.cm-comment {color: #bc9458;}
+.cm-s-base16-railscasts-dark span.cm-atom {color: #b6b3eb;}
+.cm-s-base16-railscasts-dark span.cm-number {color: #b6b3eb;}
+
+.cm-s-base16-railscasts-dark span.cm-property, .cm-s-base16-railscasts-dark span.cm-attribute {color: #a5c261;}
+.cm-s-base16-railscasts-dark span.cm-keyword {color: #da4939;}
+.cm-s-base16-railscasts-dark span.cm-string {color: #ffc66d;}
+
+.cm-s-base16-railscasts-dark span.cm-variable {color: #a5c261;}
+.cm-s-base16-railscasts-dark span.cm-variable-2 {color: #6d9cbe;}
+.cm-s-base16-railscasts-dark span.cm-def {color: #cc7833;}
+.cm-s-base16-railscasts-dark span.cm-error {background: #da4939; color: #d4cfc9;}
+.cm-s-base16-railscasts-dark span.cm-bracket {color: #f4f1ed;}
+.cm-s-base16-railscasts-dark span.cm-tag {color: #da4939;}
+.cm-s-base16-railscasts-dark span.cm-link {color: #b6b3eb;}
+
+.cm-s-base16-railscasts-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+
+#open-files-container a {
+    color: #f9f7f3;
+}
+#open-files-container .extension, #open-files-container .directory {
+    color: #d4cfc9;
+}
+#open-files-container li.selected a, #open-files-container li.selected a .extension {
+    color: #519f50;
+} 
+
+#working-set-header,#project-files-header, #open-files-container{ /* Working files */
+    background: rgba(0,0,0,0.12); 
+    color: #f4f1ed;
+}
+#sidebar, #main-toolbar, #status-bar, .inline-widget{
+    background: #2b2b2b;
+}
+
+#project-files-header { 
+    border-top: 1px solid #5a647e;
+}
+
+#project-dropdown-toggle:hover{ /* Open url when hover */
+    color: #ffc66d!important;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+#status-bar{
+    border-top:1px solid #272935;
+    color: #a5c261;
+}
+
+.sidebar-selection, .sidebar-selection-triangle{ /* Selected file or folder */
+    background:#272935;
+}
+.sidebar-selection-triangle.triangle-visible::before{
+    border-left:12px solid #272935;
+}
+.jstree-brackets li.git-ignored {
+    color: #d4cfc9;
+}
+.jstree-brackets li.jstree-closed>a, .jstree-brackets li.jstree-open>a,.git-close-not-modified i {
+    color: #6d9cbe;
+}
+.jstree-brackets li a.jstree-clicked, .jstree-brackets li a.jstree-clicked .extension {
+    color: #519f50;
+}
+.jstree-brackets li a {
+    color: #f9f7f3;
+}
+.jstree-brackets li .extension {
+    color: #f4f1ed;
+}
+
+.cm-s-base16-railscasts-dark .CodeMirror-matchingbracket { text-decoration: underline; color: #f9f7f3 !important;}
+
+#titlebar,
+#status-bar,
+#status-indicators,
+#editor-holder #not-editor {
+    background-color: #272935;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+#titlebar {
+    height: 14px;
+}
+
+#titlebar .title-wrapper {
+    display: none;
+}
+
+#status-info,
+#status-indicators * {
+    color: #f9f7f3;
+}
+#status-file {
+    color: #f4f1ed;
+}
+
+.toolbar .nav .dropdown-toggle {
+    padding: 2px 5px 1px !important;
+    font-size: 13px;
+    color: #f4f1ed;
+}
+
+.toolbar .nav .dropdown-toggle:hover {
+    color: inherit;
+}
+
+.toolbar .nav .dropdown-menu {
+    top: 23px;
+}
+
+.cm-s-base16-railscasts-dark {
+    font-family: "Envy Code R";
+    font-size: 10pt;
+}
