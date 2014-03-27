@@ -48,7 +48,7 @@
     color: #36312e;
 }
 #sidebar, #main-toolbar, #status-bar, .inline-widget{
-    background: #28211c;
+    background: #baae9e;
 }
 
 #project-files-header { 
@@ -116,7 +116,7 @@
 .toolbar .nav .dropdown-toggle {
     padding: 2px 5px 1px !important;
     font-size: 13px;
-    color: #36312e;
+    color: #9d9b97;
 }
 
 .toolbar .nav .dropdown-toggle:hover {
