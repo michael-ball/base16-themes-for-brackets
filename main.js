@@ -102,7 +102,7 @@ define(function (require, exports, module) {
         var i,
             len = themesNameArray.length,
             findDefault = themesNameArray.indexOf('default');
-        themeNamesArray.sort();
+        themesNameArray.sort();
         if (findDefault !== -1) { //make sure default theme is on top
             themesNameArray = themesNameArray.splice(findDefault, 1).concat(themesNameArray);
         }
