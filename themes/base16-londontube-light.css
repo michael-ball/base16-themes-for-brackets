@@ -72,10 +72,10 @@
     border-left:12px solid #1c3f95;
 }
 .jstree-brackets li.git-ignored {
-    color: #737171;
+    color: #737171 !important;
 }
 .jstree-brackets li.jstree-closed>a, .jstree-brackets li.jstree-open>a,.git-close-not-modified i {
-    color: #009ddc;
+    color: #009ddc !important;
 }
 .jstree-brackets li a.jstree-clicked, .jstree-brackets li a.jstree-clicked .extension {
     color: #85cebc;
@@ -97,11 +97,11 @@
 }
 
 #titlebar {
-    height: 14px;
+    height: 20px;
 }
 
-#titlebar .title-wrapper {
-    display: none;
+.toolbar .nav .dropdown-toggle, .context-menu .dropdown-toggle, .codehint-menu .dropdown-toggle {
+    font-weight: 500;
 }
 
 #status-info,
@@ -114,19 +114,15 @@
 
 .toolbar .nav .dropdown-toggle {
     padding: 2px 5px 1px !important;
-    font-size: 13px;
+    font-size: 12pt;
     color: #1c3f95;
 }
 
-.toolbar .nav .dropdown-toggle:hover {
+.toolbar .nav .dropdown-toggle:hover, .context-menu .dropdown-toggle:hover, .codehint-menu .dropdown-toggle:hover, .toolbar .nav .dropdown.open .dropdown-toggle, .context-menu .dropdown.open .dropdown-toggle, .codehint-menu .dropdown.open .dropdown-toggle {
     color: inherit;
+    background: #85cebc;
 }
 
 .toolbar .nav .dropdown-menu {
     top: 23px;
-}
-
-.cm-s-base16-londontube-light {
-    font-family: "Envy Code R";
-    font-size: 10pt;
 }

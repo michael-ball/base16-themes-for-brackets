@@ -72,10 +72,10 @@
     border-left:12px solid #343d46;
 }
 .jstree-brackets li.git-ignored {
-    color: #65737e;
+    color: #65737e !important;
 }
 .jstree-brackets li.jstree-closed>a, .jstree-brackets li.jstree-open>a,.git-close-not-modified i {
-    color: #8fa1b3;
+    color: #8fa1b3 !important;
 }
 .jstree-brackets li a.jstree-clicked, .jstree-brackets li a.jstree-clicked .extension {
     color: #96b5b4;
@@ -97,11 +97,11 @@
 }
 
 #titlebar {
-    height: 14px;
+    height: 20px;
 }
 
-#titlebar .title-wrapper {
-    display: none;
+.toolbar .nav .dropdown-toggle, .context-menu .dropdown-toggle, .codehint-menu .dropdown-toggle {
+    font-weight: 500;
 }
 
 #status-info,
@@ -114,19 +114,15 @@
 
 .toolbar .nav .dropdown-toggle {
     padding: 2px 5px 1px !important;
-    font-size: 13px;
+    font-size: 12pt;
     color: #343d46;
 }
 
-.toolbar .nav .dropdown-toggle:hover {
+.toolbar .nav .dropdown-toggle:hover, .context-menu .dropdown-toggle:hover, .codehint-menu .dropdown-toggle:hover, .toolbar .nav .dropdown.open .dropdown-toggle, .context-menu .dropdown.open .dropdown-toggle, .codehint-menu .dropdown.open .dropdown-toggle {
     color: inherit;
+    background: #96b5b4;
 }
 
 .toolbar .nav .dropdown-menu {
     top: 23px;
-}
-
-.cm-s-base16-ocean-light {
-    font-family: "Envy Code R";
-    font-size: 10pt;
 }

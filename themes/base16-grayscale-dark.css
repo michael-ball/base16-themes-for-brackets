@@ -72,10 +72,10 @@
     border-left:12px solid #252525;
 }
 .jstree-brackets li.git-ignored {
-    color: #ababab;
+    color: #ababab !important;
 }
 .jstree-brackets li.jstree-closed>a, .jstree-brackets li.jstree-open>a,.git-close-not-modified i {
-    color: #686868;
+    color: #686868 !important;
 }
 .jstree-brackets li a.jstree-clicked, .jstree-brackets li a.jstree-clicked .extension {
     color: #868686;
@@ -98,7 +98,11 @@
 }
 
 #titlebar {
-    height: 14px;
+    height: 20px;
+}
+
+.toolbar .nav .dropdown-toggle, .context-menu .dropdown-toggle, .codehint-menu .dropdown-toggle {
+    font-weight: 500;
 }
 
 #titlebar .title-wrapper {
@@ -115,12 +119,13 @@
 
 .toolbar .nav .dropdown-toggle {
     padding: 2px 5px 1px !important;
-    font-size: 13px;
+    font-size: 12pt;
     color: #e3e3e3;
 }
 
-.toolbar .nav .dropdown-toggle:hover {
+.toolbar .nav .dropdown-toggle:hover, .context-menu .dropdown-toggle:hover, .codehint-menu .dropdown-toggle:hover, .toolbar .nav .dropdown.open .dropdown-toggle, .context-menu .dropdown.open .dropdown-toggle, .codehint-menu .dropdown.open .dropdown-toggle {
     color: inherit;
+    background: #868686;
 }
 
 .toolbar .nav .dropdown-menu {
