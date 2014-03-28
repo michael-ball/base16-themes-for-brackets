@@ -1,15 +1,15 @@
 {
-    "title": "Themes for Brackets",
-    "name": "themesforbrackets",
-    "author": "Jacob Lauritzen <jacsebl@hotmail.com>",
-    "description": "Adds themes to Brackets incl. Dark Soda, Light Table and more",
-    "version": "1.6.3",
+    "title": "Base16 Themes for Brackets",
+    "name": "base16themesforbrackets",
+    "author": "Michaël Ball",
+    "description": "Adds the Base16 themes to Brackets",
+    "version": "0.0.1",
     "keywords": ["themes", "brackets", "custom", "highlight", "skins"],
-    "homepage": "https://github.com/Jacse/themes-for-brackets",
-    "bugs": "https://github.com/Jacse/themes-for-brackets/issues",
+    "homepage": "https://github.com/michael-ball/base16-themes-for-brackets",
+    "bugs": "https://github.com/michael-ball/base16-themes-for-brackets/issues",
     "repository": {
         "type": "git",
-        "url": "git://github.com/Jacse/themes-for-brackets.git"
+        "url": "git://github.com/michael-ball/base16-themes-for-brackets.git"
     },
     "engines": {
         "brackets": ">=0.34.0"
