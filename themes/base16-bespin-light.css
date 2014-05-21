@@ -13,7 +13,7 @@
 .cm-s-base16-bespin-light div.CodeMirror-selected {background: #9d9b97 !important;}
 .cm-s-base16-bespin-light .CodeMirror-gutters {background: #baae9e; border-right: 0px;}
 .cm-s-base16-bespin-light .CodeMirror-linenumber {color: #797977;}
-.cm-s-base16-bespin-light .CodeMirror-cursor {border-left: 1px solid #666666 !important;}
+.cm-s-base16-bespin-light .CodeMirror-cursor {border-left: 1px solid #28211c !important;}
 
 .cm-s-base16-bespin-light span.cm-comment {color: #937121;}
 .cm-s-base16-bespin-light span.cm-atom {color: #9b859d;}
@@ -26,12 +26,13 @@
 .cm-s-base16-bespin-light span.cm-variable {color: #54be0d;}
 .cm-s-base16-bespin-light span.cm-variable-2 {color: #5ea6ea;}
 .cm-s-base16-bespin-light span.cm-def {color: #cf7d34;}
-.cm-s-base16-bespin-light span.cm-error {background: #cf6a4c; color: #666666;}
+.cm-s-base16-bespin-light span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #cf6a4c; color: #666666;}
 .cm-s-base16-bespin-light span.cm-bracket {color: #36312e;}
 .cm-s-base16-bespin-light span.cm-tag {color: #cf6a4c;}
 .cm-s-base16-bespin-light span.cm-link {color: #9b859d;}
 
 .cm-s-base16-bespin-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+.cm-s-base16-bespin-light .CodeMirror-matchingtag { background: #9d9b97;}
 
 #open-files-container a {
     color: #28211c;

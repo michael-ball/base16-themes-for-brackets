@@ -13,7 +13,7 @@
 .cm-s-base16-londontube-light div.CodeMirror-selected {background: #e7e7e8 !important;}
 .cm-s-base16-londontube-light .CodeMirror-gutters {background: #ffffff; border-right: 0px;}
 .cm-s-base16-londontube-light .CodeMirror-linenumber {color: #959ca1;}
-.cm-s-base16-londontube-light .CodeMirror-cursor {border-left: 1px solid #737171 !important;}
+.cm-s-base16-londontube-light .CodeMirror-cursor {border-left: 1px solid #231f20 !important;}
 
 .cm-s-base16-londontube-light span.cm-comment {color: #b06110;}
 .cm-s-base16-londontube-light span.cm-atom {color: #98005d;}
@@ -26,12 +26,13 @@
 .cm-s-base16-londontube-light span.cm-variable {color: #00853e;}
 .cm-s-base16-londontube-light span.cm-variable-2 {color: #009ddc;}
 .cm-s-base16-londontube-light span.cm-def {color: #f386a1;}
-.cm-s-base16-londontube-light span.cm-error {background: #ee2e24; color: #737171;}
+.cm-s-base16-londontube-light span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #ee2e24; color: #737171;}
 .cm-s-base16-londontube-light span.cm-bracket {color: #1c3f95;}
 .cm-s-base16-londontube-light span.cm-tag {color: #ee2e24;}
 .cm-s-base16-londontube-light span.cm-link {color: #98005d;}
 
 .cm-s-base16-londontube-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+.cm-s-base16-londontube-light .CodeMirror-matchingtag { background: #e7e7e8;}
 
 #open-files-container a {
     color: #231f20;

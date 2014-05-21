@@ -13,7 +13,7 @@
 .cm-s-base16-solarized-light div.CodeMirror-selected {background: #eee8d5 !important;}
 .cm-s-base16-solarized-light .CodeMirror-gutters {background: #fdf6e3; border-right: 0px;}
 .cm-s-base16-solarized-light .CodeMirror-linenumber {color: #839496;}
-.cm-s-base16-solarized-light .CodeMirror-cursor {border-left: 1px solid #657b83 !important;}
+.cm-s-base16-solarized-light .CodeMirror-cursor {border-left: 1px solid #002b36 !important;}
 
 .cm-s-base16-solarized-light span.cm-comment {color: #d33682;}
 .cm-s-base16-solarized-light span.cm-atom {color: #6c71c4;}
@@ -26,12 +26,13 @@
 .cm-s-base16-solarized-light span.cm-variable {color: #859900;}
 .cm-s-base16-solarized-light span.cm-variable-2 {color: #268bd2;}
 .cm-s-base16-solarized-light span.cm-def {color: #cb4b16;}
-.cm-s-base16-solarized-light span.cm-error {background: #dc322f; color: #657b83;}
+.cm-s-base16-solarized-light span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #dc322f; color: #657b83;}
 .cm-s-base16-solarized-light span.cm-bracket {color: #073642;}
 .cm-s-base16-solarized-light span.cm-tag {color: #dc322f;}
 .cm-s-base16-solarized-light span.cm-link {color: #6c71c4;}
 
 .cm-s-base16-solarized-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+.cm-s-base16-solarized-light .CodeMirror-matchingtag { background: #eee8d5;}
 
 #open-files-container a {
     color: #002b36;

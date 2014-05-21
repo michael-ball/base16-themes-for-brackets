@@ -13,7 +13,7 @@
 .cm-s-base16-atelierlakeside-light div.CodeMirror-selected {background: #c1e4f6 !important;}
 .cm-s-base16-atelierlakeside-light .CodeMirror-gutters {background: #ebf8ff; border-right: 0px;}
 .cm-s-base16-atelierlakeside-light .CodeMirror-linenumber {color: #7195a8;}
-.cm-s-base16-atelierlakeside-light .CodeMirror-cursor {border-left: 1px solid #5a7b8c !important;}
+.cm-s-base16-atelierlakeside-light .CodeMirror-cursor {border-left: 1px solid #161b1d !important;}
 
 .cm-s-base16-atelierlakeside-light span.cm-comment {color: #b72dd2;}
 .cm-s-base16-atelierlakeside-light span.cm-atom {color: #5d5db1;}
@@ -26,12 +26,13 @@
 .cm-s-base16-atelierlakeside-light span.cm-variable {color: #568c3b;}
 .cm-s-base16-atelierlakeside-light span.cm-variable-2 {color: #257fad;}
 .cm-s-base16-atelierlakeside-light span.cm-def {color: #935c25;}
-.cm-s-base16-atelierlakeside-light span.cm-error {background: #d22d72; color: #5a7b8c;}
+.cm-s-base16-atelierlakeside-light span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #d22d72; color: #5a7b8c;}
 .cm-s-base16-atelierlakeside-light span.cm-bracket {color: #1f292e;}
 .cm-s-base16-atelierlakeside-light span.cm-tag {color: #d22d72;}
 .cm-s-base16-atelierlakeside-light span.cm-link {color: #5d5db1;}
 
 .cm-s-base16-atelierlakeside-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+.cm-s-base16-atelierlakeside-light .CodeMirror-matchingtag { background: #c1e4f6;}
 
 #open-files-container a {
     color: #161b1d;

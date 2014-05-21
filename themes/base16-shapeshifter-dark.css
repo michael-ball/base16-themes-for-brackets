@@ -13,7 +13,7 @@
 .cm-s-base16-shapeshifter-dark div.CodeMirror-selected {background: #040404 !important;}
 .cm-s-base16-shapeshifter-dark .CodeMirror-gutters {background: #000000; border-right: 0px;}
 .cm-s-base16-shapeshifter-dark .CodeMirror-linenumber {color: #343434;}
-.cm-s-base16-shapeshifter-dark .CodeMirror-cursor {border-left: 1px solid #555555 !important;}
+.cm-s-base16-shapeshifter-dark .CodeMirror-cursor {border-left: 1px solid #f9f9f9 !important;}
 
 .cm-s-base16-shapeshifter-dark span.cm-comment {color: #69542d;}
 .cm-s-base16-shapeshifter-dark span.cm-atom {color: #f996e2;}
@@ -26,12 +26,13 @@
 .cm-s-base16-shapeshifter-dark span.cm-variable {color: #0ed839;}
 .cm-s-base16-shapeshifter-dark span.cm-variable-2 {color: #3b48e3;}
 .cm-s-base16-shapeshifter-dark span.cm-def {color: #e09448;}
-.cm-s-base16-shapeshifter-dark span.cm-error {background: #e92f2f; color: #555555;}
+.cm-s-base16-shapeshifter-dark span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #e92f2f; color: #555555;}
 .cm-s-base16-shapeshifter-dark span.cm-bracket {color: #e0e0e0;}
 .cm-s-base16-shapeshifter-dark span.cm-tag {color: #e92f2f;}
 .cm-s-base16-shapeshifter-dark span.cm-link {color: #f996e2;}
 
 .cm-s-base16-shapeshifter-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+.cm-s-base16-shapeshifter-dark .CodeMirror-matchingtag { background: #040404;}
 
 #open-files-container a {
     color: #f9f9f9;
