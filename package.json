@@ -3,7 +3,7 @@
     "name": "base16themesforbrackets",
     "author": "Michaël Ball",
     "description": "Adds the Base16 themes to Brackets",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords": ["themes", "brackets", "custom", "highlight", "skins"],
     "homepage": "https://github.com/michael-ball/base16-themes-for-brackets",
     "bugs": "https://github.com/michael-ball/base16-themes-for-brackets/issues",
