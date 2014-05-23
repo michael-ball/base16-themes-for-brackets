@@ -26,7 +26,8 @@
 .cm-s-base16-twilight-light span.cm-variable {color: #8f9d6a;}
 .cm-s-base16-twilight-light span.cm-variable-2 {color: #7587a6;}
 .cm-s-base16-twilight-light span.cm-def {color: #cda869;}
-.cm-s-base16-twilight-light span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #cf6a4c; color: #5f5a60;}
+.cm-s-base16-twilight-light span.cm-error {background: cf6a4c; color: #1e1e1e!important;}
+
 .cm-s-base16-twilight-light span.cm-bracket {color: #323537;}
 .cm-s-base16-twilight-light span.cm-tag {color: #cf6a4c;}
 .cm-s-base16-twilight-light span.cm-link {color: #9b859d;}

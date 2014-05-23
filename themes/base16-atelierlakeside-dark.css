@@ -26,7 +26,7 @@
 .cm-s-base16-atelierlakeside-dark span.cm-variable {color: #568c3b;}
 .cm-s-base16-atelierlakeside-dark span.cm-variable-2 {color: #257fad;}
 .cm-s-base16-atelierlakeside-dark span.cm-def {color: #935c25;}
-.cm-s-base16-atelierlakeside-dark span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #d22d72; color: #7195a8;}
+.cm-s-base16-atelierlakeside-dark span.cm-error {background: #d22d72; color: #161b1d!important;}
 .cm-s-base16-atelierlakeside-dark span.cm-bracket {color: #c1e4f6;}
 .cm-s-base16-atelierlakeside-dark span.cm-tag {color: #d22d72;}
 .cm-s-base16-atelierlakeside-dark span.cm-link {color: #5d5db1;}

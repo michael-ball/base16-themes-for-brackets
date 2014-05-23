@@ -26,7 +26,8 @@
 .cm-s-base16-solarized-light span.cm-variable {color: #859900;}
 .cm-s-base16-solarized-light span.cm-variable-2 {color: #268bd2;}
 .cm-s-base16-solarized-light span.cm-def {color: #cb4b16;}
-.cm-s-base16-solarized-light span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #dc322f; color: #657b83;}
+.cm-s-base16-solarized-light span.cm-error {background: dc322f; color: #002b36!important;}
+
 .cm-s-base16-solarized-light span.cm-bracket {color: #073642;}
 .cm-s-base16-solarized-light span.cm-tag {color: #dc322f;}
 .cm-s-base16-solarized-light span.cm-link {color: #6c71c4;}

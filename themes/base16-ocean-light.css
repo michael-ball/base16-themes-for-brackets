@@ -26,7 +26,8 @@
 .cm-s-base16-ocean-light span.cm-variable {color: #a3be8c;}
 .cm-s-base16-ocean-light span.cm-variable-2 {color: #8fa1b3;}
 .cm-s-base16-ocean-light span.cm-def {color: #d08770;}
-.cm-s-base16-ocean-light span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #bf616a; color: #65737e;}
+.cm-s-base16-ocean-light span.cm-error {background: bf616a; color: #2b303b!important;}
+
 .cm-s-base16-ocean-light span.cm-bracket {color: #343d46;}
 .cm-s-base16-ocean-light span.cm-tag {color: #bf616a;}
 .cm-s-base16-ocean-light span.cm-link {color: #b48ead;}

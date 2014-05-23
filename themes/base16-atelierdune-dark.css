@@ -26,7 +26,7 @@
 .cm-s-base16-atelierdune-dark span.cm-variable {color: #60ac39;}
 .cm-s-base16-atelierdune-dark span.cm-variable-2 {color: #6684e1;}
 .cm-s-base16-atelierdune-dark span.cm-def {color: #b65611;}
-.cm-s-base16-atelierdune-dark span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #d73737; color: #999580;}
+.cm-s-base16-atelierdune-dark span.cm-error {background: #d73737; color: #20201d!important;}
 .cm-s-base16-atelierdune-dark span.cm-bracket {color: #e8e4cf;}
 .cm-s-base16-atelierdune-dark span.cm-tag {color: #d73737;}
 .cm-s-base16-atelierdune-dark span.cm-link {color: #b854d4;}

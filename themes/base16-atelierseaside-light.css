@@ -26,7 +26,8 @@
 .cm-s-base16-atelierseaside-light span.cm-variable {color: #29a329;}
 .cm-s-base16-atelierseaside-light span.cm-variable-2 {color: #3d62f5;}
 .cm-s-base16-atelierseaside-light span.cm-def {color: #87711d;}
-.cm-s-base16-atelierseaside-light span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #e6193c; color: #687d68;}
+.cm-s-base16-atelierseaside-light span.cm-error {background: e6193c; color: #131513!important;}
+
 .cm-s-base16-atelierseaside-light span.cm-bracket {color: #242924;}
 .cm-s-base16-atelierseaside-light span.cm-tag {color: #e6193c;}
 .cm-s-base16-atelierseaside-light span.cm-link {color: #ad2bee;}

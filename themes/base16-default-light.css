@@ -26,7 +26,8 @@
 .cm-s-base16-default-light span.cm-variable {color: #90a959;}
 .cm-s-base16-default-light span.cm-variable-2 {color: #6a9fb5;}
 .cm-s-base16-default-light span.cm-def {color: #d28445;}
-.cm-s-base16-default-light span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #ac4142; color: #505050;}
+.cm-s-base16-default-light span.cm-error {background: ac4142; color: #151515!important;}
+
 .cm-s-base16-default-light span.cm-bracket {color: #202020;}
 .cm-s-base16-default-light span.cm-tag {color: #ac4142;}
 .cm-s-base16-default-light span.cm-link {color: #aa759f;}

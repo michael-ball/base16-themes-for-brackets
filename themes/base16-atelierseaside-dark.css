@@ -26,7 +26,7 @@
 .cm-s-base16-atelierseaside-dark span.cm-variable {color: #29a329;}
 .cm-s-base16-atelierseaside-dark span.cm-variable-2 {color: #3d62f5;}
 .cm-s-base16-atelierseaside-dark span.cm-def {color: #87711d;}
-.cm-s-base16-atelierseaside-dark span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #e6193c; color: #809980;}
+.cm-s-base16-atelierseaside-dark span.cm-error {background: #e6193c; color: #131513!important;}
 .cm-s-base16-atelierseaside-dark span.cm-bracket {color: #cfe8cf;}
 .cm-s-base16-atelierseaside-dark span.cm-tag {color: #e6193c;}
 .cm-s-base16-atelierseaside-dark span.cm-link {color: #ad2bee;}

@@ -26,7 +26,7 @@
 .cm-s-base16-londontube-dark span.cm-variable {color: #00853e;}
 .cm-s-base16-londontube-dark span.cm-variable-2 {color: #009ddc;}
 .cm-s-base16-londontube-dark span.cm-def {color: #f386a1;}
-.cm-s-base16-londontube-dark span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #ee2e24; color: #959ca1;}
+.cm-s-base16-londontube-dark span.cm-error {background: #ee2e24; color: #231f20!important;}
 .cm-s-base16-londontube-dark span.cm-bracket {color: #e7e7e8;}
 .cm-s-base16-londontube-dark span.cm-tag {color: #ee2e24;}
 .cm-s-base16-londontube-dark span.cm-link {color: #98005d;}

@@ -26,7 +26,8 @@
 .cm-s-base16-atelierforest-light span.cm-variable {color: #5ab738;}
 .cm-s-base16-atelierforest-light span.cm-variable-2 {color: #407ee7;}
 .cm-s-base16-atelierforest-light span.cm-def {color: #df5320;}
-.cm-s-base16-atelierforest-light span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #f22c40; color: #766e6b;}
+.cm-s-base16-atelierforest-light span.cm-error {background: f22c40; color: #1b1918!important;}
+
 .cm-s-base16-atelierforest-light span.cm-bracket {color: #2c2421;}
 .cm-s-base16-atelierforest-light span.cm-tag {color: #f22c40;}
 .cm-s-base16-atelierforest-light span.cm-link {color: #6666ea;}

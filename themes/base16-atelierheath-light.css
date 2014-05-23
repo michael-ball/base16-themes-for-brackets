@@ -26,7 +26,8 @@
 .cm-s-base16-atelierheath-light span.cm-variable {color: #379a37;}
 .cm-s-base16-atelierheath-light span.cm-variable-2 {color: #516aec;}
 .cm-s-base16-atelierheath-light span.cm-def {color: #a65926;}
-.cm-s-base16-atelierheath-light span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #ca402b; color: #776977;}
+.cm-s-base16-atelierheath-light span.cm-error {background: ca402b; color: #1b181b!important;}
+
 .cm-s-base16-atelierheath-light span.cm-bracket {color: #292329;}
 .cm-s-base16-atelierheath-light span.cm-tag {color: #ca402b;}
 .cm-s-base16-atelierheath-light span.cm-link {color: #7b59c0;}

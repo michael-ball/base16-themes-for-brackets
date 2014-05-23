@@ -26,7 +26,7 @@
 .cm-s-base16-grayscale-dark span.cm-variable {color: #8e8e8e;}
 .cm-s-base16-grayscale-dark span.cm-variable-2 {color: #686868;}
 .cm-s-base16-grayscale-dark span.cm-def {color: #999999;}
-.cm-s-base16-grayscale-dark span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #7c7c7c; color: #ababab;}
+.cm-s-base16-grayscale-dark span.cm-error {background: #7c7c7c; color: #101010!important;}
 .cm-s-base16-grayscale-dark span.cm-bracket {color: #e3e3e3;}
 .cm-s-base16-grayscale-dark span.cm-tag {color: #7c7c7c;}
 .cm-s-base16-grayscale-dark span.cm-link {color: #747474;}

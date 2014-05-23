@@ -26,7 +26,7 @@
 .cm-s-base16-monokai-dark span.cm-variable {color: #a6e22e;}
 .cm-s-base16-monokai-dark span.cm-variable-2 {color: #66d9ef;}
 .cm-s-base16-monokai-dark span.cm-def {color: #fd971f;}
-.cm-s-base16-monokai-dark span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #f92672; color: #a59f85;}
+.cm-s-base16-monokai-dark span.cm-error {background: #f92672; color: #272822!important;}
 .cm-s-base16-monokai-dark span.cm-bracket {color: #f5f4f1;}
 .cm-s-base16-monokai-dark span.cm-tag {color: #f92672;}
 .cm-s-base16-monokai-dark span.cm-link {color: #ae81ff;}

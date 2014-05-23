@@ -26,7 +26,8 @@
 .cm-s-base16-bespin-light span.cm-variable {color: #54be0d;}
 .cm-s-base16-bespin-light span.cm-variable-2 {color: #5ea6ea;}
 .cm-s-base16-bespin-light span.cm-def {color: #cf7d34;}
-.cm-s-base16-bespin-light span.cm-error {background: transparent; text-decoration: underline; text-decoration-style: wavy; text-decoration-color: #cf6a4c; color: #666666;}
+.cm-s-base16-bespin-light span.cm-error {background: cf6a4c; color: #28211c!important;}
+
 .cm-s-base16-bespin-light span.cm-bracket {color: #36312e;}
 .cm-s-base16-bespin-light span.cm-tag {color: #cf6a4c;}
 .cm-s-base16-bespin-light span.cm-link {color: #9b859d;}
